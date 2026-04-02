@@ -23,34 +23,31 @@
     ></script>
 
     <!-- Навигационная панель -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- Кнопка для мобильного меню -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Пункты меню -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="#home">Главная</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">О нас</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Каталог</a>
-            </li>
-          </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <!-- Логотип / Название магазина (ведёт на главную секцию) -->
+            <a class="navbar-brand fs-3 fw-bold" href="#home">🛒TechStore</a>
+            
+            <!-- Кнопка для мобильной версии -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Ссылки меню -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-primary me-2" href="#home" role="button">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-primary me-2" href="#catalog" role="button">Каталог</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-primary" href="#about" role="button">О нас</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
     <!-- Hero секция -->
     <div class="container-fluid bg-light py-5" id="home">
@@ -63,7 +60,7 @@
     
 
     <!-- Секция с галереей изображений -->
-    <div class="container my-5">
+    <div class="container my-5" id="catalog">
       <h2 class="text-center mb-5">Популярные товары</h2>
       <div class="row g-3">
         <div class="col-md-6 col-lg-4">
@@ -153,8 +150,8 @@
             <div class="card-body">
               <div class="text-center">
                 <h1 class="display-1">🎁</h1>
-                <h5 class="card-title">Бесплатная доставка</h5>
-                <p class="card-text">Доставка по всей России при заказе от 300₽</p>
+                <h5 class="card-title">Гарантия качества</h5>
+                <p class="card-text">Официальная гарантия на все товары от производителей</p>
               </div>
             </div>
           </div>
@@ -166,8 +163,8 @@
               <div class="text-center">
                 <h1 class="display-1">📞</h1>
               </div>
-              <h5 class="card-title">Бесплатная доставка</h5>
-              <p class="card-text">Доставка по всей России при заказе от 300₽</p>
+              <h5 class="card-title">Поддержка 24/7</h5>
+              <p class="card-text">Наши специалисты всегда готовы помочь</p>
             </div>
           </div>
         </div>
@@ -175,34 +172,31 @@
     </div>
 
     <!-- Футер -->
-    <footer>
+    <footer id="about">
       <div class="container">
         <div class="row">
           <div class="col-md-4 mb-4">
-            <h5>О компании</h5>
-            <p>Мы создаем современные веб-решения для вашего бизнеса с использованием передовых технологий.</p>
-          </div>
-          <div class="col-md-4 mb-4">
-            <h5>Быстрые ссылки</h5>
-            <ul class="list-unstyled">
-              <li><a href="#home">Главная</a></li>
-              <li><a href="#services">Услуги</a></li>
-              <li><a href="#about">О нас</a></li>
-              <li><a href="#contact">Контакты</a></li>
-            </ul>
+            <h5>О магазине</h5>
+            <p>TechStore - ваш надёжный партнёр в мире электроники с 2020 года.</p>
           </div>
           <div class="col-md-4 mb-4">
             <h5>Контакты</h5>
             <ul class="list-unstyled">
-              <li>Email: info@myportfolio.com</li>
-              <li>Телефон: +7 (999) 123-45-67</li>
-              <li>Адрес: Волжский, ул. Пушкина, д. Колотушкино</li>
+              <li>📧info@techstore.ru</li>
+              <li>📞8 (000) 555-35-35</li>
+              <li>📍г. Волжский, ул.Пушкина, д. Колотушкина</li>
             </ul>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h5>Мы в соцсетях</h5>
+              <button type="button" class="btn btn-secondary">VK</button>
+              <button type="button" class="btn btn-secondary">Telegram</button>
+              <button type="button" class="btn btn-secondary">Одноклассники</button>
           </div>
         </div>
         <hr style="border-color: rgba(255, 255, 255, 0.1)" />
         <div class="text-center mt-3">
-          <p class="mb-0">&copy; 2026 MyPortfolio. Все права защищены.</p>
+          <p class="mb-0">&copy; 2026 TechStore. Все права защищены.</p>
           <p class="mb-0 text-muted">Создано с помощью Bootstrap 5</p>
         </div>
       </div>
