@@ -15,24 +15,25 @@
 <body>
 
     <!-- Навигационная панель -->
+<!-- Навигационная панель - замени полностью этот блок -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand fs-3 fw-bold" href="#home">🛒TechStore</a>
-
+            <a class="navbar-brand fs-3 fw-bold" href="index.html">🛒TechStore</a>
+            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+            
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="btn btn-outline-primary me-2" href="#home" role="button">Главная</a>
+                        <a class="btn btn-outline-primary me-2" href="index.html" role="button">Главная</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-outline-primary me-2" href="#catalog" role="button">Каталог</a>
+                        <a class="btn btn-primary me-2" href="catalog.html" role="button">Каталог</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-outline-primary" href="#about" role="button">О нас</a>
+                        <a class="btn btn-outline-primary" href="about.html" role="button">О нас</a>
                     </li>
                 </ul>
             </div>
@@ -43,172 +44,145 @@
     <div style="height: 76px;"></div>
 
     <!-- Hero секция -->
-    <div class="container-fluid bg-light py-5" id="home">
-        <div class="container text-center">
-            <h1 class="display-4">Каталог товаров</h1>
-            <p class="lead">Найди технику для себя</p>
-        </div>
+    <div class="container-fluid py-5" id="home">
+    <div class="container text-center">
+        <h1 class="display-4">Каталог товаров</h1>
+        <p class="lead">Найди технику для себя</p>
     </div>
+</div>
 
     <!-- Секция с галереей изображений -->
-    <div class="container my-5" id="catalog">
+    <div class="container my-5">
         <h2 class="text-center mb-5">Популярные товары</h2>
-        <div class="row g-3">
+        <div class="row g-4">
             <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 20rem">
-                    <img src="https://avatars.mds.yandex.net/get-mpic/11695497/2a0000018fbdcb64202d98f54b5e1de133a8/9hq" class="card-img-top" alt="..." />
+                <div class="card h-100">
+                    <img src="https://avatars.mds.yandex.net/get-mpic/11695497/2a0000018fbdcb64202d98f54b5e1de133a8/9hq" class="card-img-top" alt="Наушники Sony" />
                     <div class="card-body">
-                        <h5 class="card-title">Наушники Sony WH-1000XMS</h5>
+                        <h5 class="card-title">Наушники Sony WH-1000XM5</h5>
                         <p class="card-text">Премиальные наушники с активным шумоподавлением</p>
                         <div class="text-warning">★★★★★<span class="text-muted">(125)</span></div>
                         <h5><s>29 990₽</s></h5>
-                        <h2>24 990₽<span class="badge text-bg-light"></span></h2>
-                        <p></p>
+                        <h2>24 990₽</h2>
                         <div class="d-grid gap">
-                            <button class="btn btn-primary w-100 mt-3"><i class="fas fa-shopping-cart"></i> В
-                                корзину
-                            </button>
+                            <button class="btn btn-primary w-100 mt-3">В корзину</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 20rem">
-                    <img src="https://avatars.mds.yandex.net/i?id=c7b8655b9718fb120f713f50598052f38960b44d-4614093-images-thumbs&n=13" class="card-img-top" alt="..." />
+                <div class="card h-100">
+                    <img src="https://avatars.mds.yandex.net/i?id=c7b8655b9718fb120f713f50598052f38960b44d-4614093-images-thumbs&n=13" class="card-img-top" alt="iPhone" />
                     <div class="card-body">
                         <h5 class="card-title">iPhone 15 Pro Max</h5>
                         <p class="card-text">Флагманский смартфон с мощным процессором</p>
                         <div class="text-warning">★★★★★<span class="text-muted">(342)</span></div>
-                        <h2>109 990 ₽<span class="badge text-bg-light"></span></h2>
-                        <p></p>
+                        <h2>109 990 ₽</h2>
                         <div class="d-grid gap">
-                            <button class="btn btn-primary w-100 mt-3"><i class="fas fa-shopping-cart"></i> В
-                                корзину
-                            </button>
+                            <button class="btn btn-primary w-100 mt-3">В корзину</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 20rem">
-                    <img src="https://avatars.mds.yandex.net/get-mpic/14411065/k_plus_wC0QcYhCnn0c1dney36p/orig" class="card-img-top" alt="..." />
+                <div class="card h-100">
+                    <img src="https://img.mvideo.ru/Big/30087333bb.jpg" class="card-img-top" alt="MacBook" />
                     <div class="card-body">
                         <h5 class="card-title">MacBook Pro 14</h5>
                         <p class="card-text">Мощный ноутбук для профессионалов</p>
                         <div class="text-warning">★★★★☆ <span class="text-muted">(89)</span></div>
-                        <h2>189 990 ₽<span class="badge text-bg-light"></span></h2>
-                        <p></p>
+                        <h2>189 990 ₽</h2>
                         <div class="d-grid gap">
-                            <button class="btn btn-primary w-100 mt-3"><i class="fas fa-shopping-cart"></i> В
-                                корзину
-                            </button>
+                            <button class="btn btn-primary w-100 mt-3">В корзину</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 20rem">
-                    <img src="https://avatars.mds.yandex.net/get-mpic/7150546/2a000001914fcd0ee099d3be07d146ed24b9/orig" class="card-img-top" alt="..." />
+                <div class="card h-100">
+                    <img src="https://avatars.mds.yandex.net/get-mpic/7150546/2a000001914fcd0ee099d3be07d146ed24b9/orig" class="card-img-top" alt="Apple Watch" />
                     <div class="card-body">
                         <h5 class="card-title">Apple Watch Series 9</h5>
                         <p class="card-text">Умные часы с расширенными функциями</p>
                         <div class="text-warning">★★★★★ <span class="text-muted">(234)</span></div>
-                        <h2>49 990 ₽<span class="badge text-bg-light"></span></h2>
-                        <p></p>
+                        <h2>49 990 ₽</h2>
                         <div class="d-grid gap">
-                            <button class="btn btn-primary w-100 mt-3"><i class="fas fa-shopping-cart"></i> В
-                                корзину
-                            </button>
+                            <button class="btn btn-primary w-100 mt-3">В корзину</button>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 20rem">
-                    <img src="https://avatars.mds.yandex.net/get-mpic/1970506/img_id3931502105311481405.jpeg/orig" class="card-img-top" alt="..." />
+                <div class="card h-100">
+                    <img src="https://avatars.mds.yandex.net/get-mpic/1970506/img_id3931502105311481405.jpeg/orig" class="card-img-top" alt="iPad" />
                     <div class="card-body">
                         <h5 class="card-title">iPad Pro 12.9" M2</h5>
                         <p class="card-text">Профессиональный планшет для творчества</p>
                         <div class="text-warning">★★★★★<span class="text-muted">(167)</span></div>
-                        <h2>129 990₽<span class="badge text-bg-light"></span></h2>
-                        <p></p>
+                        <h2>129 990₽</h2>
                         <div class="d-grid gap">
-                            <button class="btn btn-primary w-100 mt-3"><i class="fas fa-shopping-cart"></i> В
-                                корзину
-                            </button>
+                            <button class="btn btn-primary w-100 mt-3">В корзину</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 20rem">
-                    <img src="https://mobilo4ka.ru/image/catalog/Sony/PlayStation%205%20Pro/5.jpg" class="card-img-top" alt="..." />
+                <div class="card h-100">
+                    <img src="https://mobilo4ka.ru/image/catalog/Sony/PlayStation%205%20Pro/5.jpg" class="card-img-top" alt="PlayStation" />
                     <div class="card-body">
                         <h5 class="card-title">PlayStation 5 Pro</h5>
                         <p class="card-text">Игровая консоль нового поколения</p>
                         <div class="text-warning">★★★★☆ <span class="text-muted">(456)</span></div>
-                        <h2>79 990₽<span class="badge text-bg-light"></span></h2>
-                        <p></p>
+                        <h2>79 990₽</h2>
                         <div class="d-grid gap">
-                            <button class="btn btn-primary w-100 mt-3"><i class="fas fa-shopping-cart"></i> В
-                                корзину
-                            </button>
+                            <button class="btn btn-primary w-100 mt-3">В корзину</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 20rem">
-                    <img src="https://static.re-store.ru/upload/static/re/JBLCharge5/05@3x.jpg" class="card-img-top" alt="..." />
+                <div class="card h-100">
+                    <img src="https://static.re-store.ru/upload/static/re/JBLCharge5/05@3x.jpg" class="card-img-top" alt="JBL" />
                     <div class="card-body">
                         <h5 class="card-title">JBL Charge 5</h5>
                         <p class="card-text">Портативная Bluetooth колонка</p>
                         <div class="text-warning">★★★★★<span class="text-muted">(89)</span></div>
-                        <h2>19 990₽<span class="badge text-bg-light"></span></h2>
-                        <p></p>
+                        <h2>19 990₽</h2>
                         <div class="d-grid gap">
-                            <button class="btn btn-primary w-100 mt-3"><i class="fas fa-shopping-cart"></i> В
-                                корзину
-                            </button>
+                            <button class="btn btn-primary w-100 mt-3">В корзину</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 20rem">
-                    <img src="https://img.05.ru/resize/iNOUNMl0hOY1CZ7vYMmmccIfkL5UxxQF-UUc-HfsT0w/rs:fit:949:908:0:0/q:80/bG9jYWw6Ly8vdXBsb2FkL2libG9jay8wMDAwMDI0MDUyMi8xLnBuZw" class="card-img-top" alt="..." />
+                <div class="card h-100">
+                    <img src="https://img.05.ru/resize/iNOUNMl0hOY1CZ7vYMmmccIfkL5UxxQF-UUc-HfsT0w/rs:fit:949:908:0:0/q:80/bG9jYWw6Ly8vdXBsb2FkL2libG9jay8wMDAwMDI0MDUyMi8xLnBuZw" class="card-img-top" alt="GoPro" />
                     <div class="card-body">
                         <h5 class="card-title">GoPro Hero 12</h5>
                         <p class="card-text">Экшн-камера для съёмки в любых условиях</p>
                         <div class="text-warning">★★★★★<span class="text-muted">(78)</span></div>
-                        <h2>44 990₽<span class="badge text-bg-light"></span></h2>
-                        <p></p>
+                        <h2>44 990₽</h2>
                         <div class="d-grid gap">
-                            <button class="btn btn-primary w-100 mt-3"><i class="fas fa-shopping-cart"></i> В
-                                корзину
-                            </button>
+                            <button class="btn btn-primary w-100 mt-3">В корзину</button>
                         </div>
                     </div>
                 </div>
             </div>
 
              <div class="col-md-6 col-lg-4">
-                <div class="card" style="width: 20rem">
-                    <img src="https://n.cdn.cdek.shopping/images/shopping/088a9f0e70274c01ae9f5c726c9d89b8.jpg?v=1" class="card-img-top" alt="..." />
+                <div class="card h-100">
+                    <img src="https://n.cdn.cdek.shopping/images/shopping/088a9f0e70274c01ae9f5c726c9d89b8.jpg?v=1" class="card-img-top" alt="Kindle" />
                     <div class="card-body">
-                        <h5 class="card-title">>Kindle Paperwhite</h5>
+                        <h5 class="card-title">Kindle Paperwhite</h5>
                         <p class="card-text">Электронная книга с подсветкой</p>
                         <div class="text-warning">★★★★★<span class="text-muted">(234)</span></div>
-                        <h2>16 990₽<span class="badge text-bg-light"></span></h2>
-                        <p></p>
+                        <h2>16 990₽</h2>
                         <div class="d-grid gap">
-                            <button class="btn btn-primary w-100 mt-3"><i class="fas fa-shopping-cart"></i> В
-                                корзину
-                            </button>
+                            <button class="btn btn-primary w-100 mt-3">В корзину</button>
                         </div>
                     </div>
                 </div>
@@ -216,12 +190,8 @@
         </div>
     </div>
 
-    <div class="text-center">
-        <button type="button" class="btn btn-outline-primary">Смотреть все товары</button>
-    </div>
-
     <!-- Футер -->
-    <footer id="about">
+    <footer class="bg-dark text-white py-5 mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-4">
@@ -233,17 +203,17 @@
                     <ul class="list-unstyled">
                         <li>📧 info@techstore.ru</li>
                         <li>📞 8 (000) 555-35-35</li>
-                        <li>📍 г. Волжский, ул.Пушкина, д. Колотушкина</li>
+                        <li>📍 г. Волжский, ул. Пушкина, д. Колотушкина</li>
                     </ul>
                 </div>
                 <div class="col-md-4 mb-4">
                     <h5>Мы в соцсетях</h5>
-                    <button type="button" class="btn btn-secondary">VK</button>
-                    <button type="button" class="btn btn-secondary">Telegram</button>
+                    <button type="button" class="btn btn-secondary me-2">VK</button>
+                    <button type="button" class="btn btn-secondary me-2">Telegram</button>
                     <button type="button" class="btn btn-secondary">Одноклассники</button>
                 </div>
             </div>
-            <hr style="border-color: rgba(255, 255, 255, 0.1)" />
+            <hr class="bg-secondary" />
             <div class="text-center mt-3">
                 <p class="mb-0">&copy; 2026 TechStore. Все права защищены.</p>
                 <p class="mb-0 text-muted">Создано с помощью Bootstrap 5</p>
@@ -252,31 +222,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Валидация формы Bootstrap
-        (function () {
-            "use strict";
-            const form = document.getElementById("contactForm");
-            if (form) {
-                form.addEventListener(
-                    "submit",
-                    function (event) {
-                        if (!form.checkValidity()) {
-                            event.preventDefault();
-                            event.stopPropagation();
-                        } else {
-                            event.preventDefault();
-                            alert("Форма успешно отправлена!");
-                            form.reset();
-                            form.classList.remove("was-validated");
-                        }
-                        form.classList.add("was-validated");
-                    },
-                    false,
-                );
-            }
-        })();
-    </script>
+
 </body>
 
 </html>
